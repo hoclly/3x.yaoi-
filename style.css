@@ -1,0 +1,120 @@
+/* Estilo global para todo o corpo da pàgina */
+body{
+  font-family: 'segoe ul', sans-serif;
+  suffix: 'segoe UI', sans-serif;
+  margin:0;
+  padding:0;
+  background-color:#8b62af
+}
+
+/* cabeçalho do site */
+
+header{
+background-color:black;
+color: rgb(164, 72, 185);
+padding: 25px;
+text-align:center;
+border-bottom: 4px solid #a300cc;
+}
+
+.imagem{ 
+    background-image: url(WhatsApp\ Image\ 2025-06-06\ at\ 10.27.07\ \(2\).jpeg);
+}
+
+/*Menu*/
+nav ul {
+    list-style:inline-block;
+    padding: 0px;
+    margin:0 10px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a{
+    color:#ffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: #a13bfa;
+}
+
+/*seções*/
+
+section{
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #3b056b
+}
+
+h2{
+    color:rgb(169, 70, 205)
+}
+
+ul li{
+    margin: 10px 0;
+    font-size: 1.1cm;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,textarea{
+    padding: 12px;
+    border: 2px solid #ccc;
+    font-size: 1em;
+}
+
+input, textarea{
+    padding: 12px;
+    border: 2px solid plum;
+    font-size: 1em;
+    transition: border-color 0.3s;;
+}
+
+input:focus,textarea:focus{
+    border-color: darkslateblue;
+    outline: none;
+}
+
+button{
+    background-color: #c994f8;
+    color: aliceblue;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #844eb4;
+}
+footer{
+    background-color: #6f418b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
+   }
+
+.logo{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}   
